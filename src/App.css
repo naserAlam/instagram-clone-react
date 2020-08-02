@@ -1,0 +1,79 @@
+*{
+  margin: 0;
+}
+
+.app {
+  background-color: #fafafa;
+}
+
+.app__posts {
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.app__postsRight {
+  margin-left: 20px;
+}
+
+.app__header {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  background-color: white;
+  padding: 20px;
+  border-bottom: 1px solid lightgray;
+  object-fit: contain;
+  display: flex;
+  justify-content: space-between;
+}
+
+.app__headerImage {
+  margin-left: 17%;
+  object-fit: contain;
+}
+
+.app__signup {
+  display: flex;
+  flex-direction: column;
+}
+
+.app__imageUpload {
+  background-color: lightgray;
+  overflow: hidden;
+  padding: 10px;
+  position: sticky;
+  bottom: 0;
+  text-align: center;
+}
+
+.app__imageUpload button {
+  text-transform: none;
+  background-color: white;
+  color: #0095f6;
+}
+
+.app__authContainer {
+  margin-right: 17%;
+}
+
+.app__authContainer button {
+  border: 1px solid transparent;
+  text-transform: none;
+}
+
+#btn_login, #btn_logout {
+  background-color: #0095f6;
+  color: white;
+  margin-right: 10px;
+}
+
+#btn_signup {
+  background-color: white;
+  color: #0095f6;
+}
+
+#uploadError {
+  color: red;
+  text-align: center;
+}
